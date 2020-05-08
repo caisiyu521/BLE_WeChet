@@ -1,0 +1,36 @@
+{
+    "pages": [
+        "pages/mqtt_activity/mqtt_activity",
+        "pages/index/index",
+        
+        "pages/logs/logs"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#707070",
+        "selectedColor": "#1B82D1",
+        "borderStyle": "white",
+        "backgroundColor": "#fff",
+        "list": [
+            {
+                "pagePath": "pages/mqtt_activity/mqtt_activity",
+                "text": "远程连接"
+            },
+            {
+                "pagePath": "pages/index/index",
+                "text": "本地连接"
+            },
+            {
+                "pagePath": "pages/logs/logs",
+                "text": "我"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

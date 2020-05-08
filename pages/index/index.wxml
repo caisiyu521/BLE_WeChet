@@ -1,0 +1,14 @@
+<view class="content">
+  <text class="status">适配器状态：{{ status }}</text>
+  <text class="sousuo">是否搜索：{{ sousuo_flag }}</text>
+  <text class="msg1">DEBUG：{{ debug_msg1 }}</text>
+  <text class="msg1">connected_DeviceId：{{ connected_DeviceId }}</text>
+  <text class="msg1">connected_service：{{ connected_service }}</text>
+  <text class="msg1">connected_CharacteristicsId：{{ connected_CharacteristicsId}}</text>
+  <text class="msg1">连接状态：{{ connect_flag }}</text>
+  <text class="msg1">notify状态：{{ connect_notify_flag }}</text>
+  <text class="msg1">收到的消息：{{ connect_notify_message }}</text>
+  <button type="primary" class="button" bindtap="btn_Connect">启动连接</button>
+  <button type="primary" class="button" bindtap="lanya1">发送指定数据</button>
+  <button type="primary" class="button" bindtap="btn_Disconnect">断开连接</button>
+</view>
